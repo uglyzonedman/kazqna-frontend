@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-
+import HomePage from '../src/components/screen/home/Home'
 export default function Home() {
-	return <main className={styles.main}>123</main>
+	return <HomePage />
 }

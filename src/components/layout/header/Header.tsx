@@ -4,6 +4,8 @@ import { ChevronDown } from 'lucide-react'
 import HeaderLogo from './header-logo/HeaderLogo'
 import HeaderMenu from './header-menu/HeaderMenu'
 import HeaderSearch from './header-search/HeaderSearch'
+import HeaderCreatePost from './header-create-post/HeaderCreatePost'
+import HeaderAccount from './header-acccount/HeaderAccount'
 const Header = () => {
 	return (
 		<header className={styles.header}>
@@ -12,6 +14,8 @@ const Header = () => {
 					<HeaderLogo />
 					<HeaderMenu />
 					<HeaderSearch />
+					<HeaderCreatePost />
+					<HeaderAccount />
 				</div>
 			</div>
 		</header>

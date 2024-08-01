@@ -4,9 +4,8 @@ import { IoIosSearch } from 'react-icons/io'
 const HeaderSearch = () => {
 	return (
 		<div className={styles.header__content__search}>
-			<IoIosSearch color='#1d1d1d' size={24} />
-
-			<input type='text' />
+			<IoIosSearch color='#bec7d1' size={24} />
+			<input type='text' placeholder='Поиск сообщества или поста' />
 		</div>
 	)
 }
