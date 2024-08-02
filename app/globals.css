@@ -8,6 +8,11 @@
 
 body {
 	background: #24292e;
+	height: 100vh;
+	font-family: 'Open Sans', sans-serif;
+}
+#__next {
+	height: 100%;
 }
 *,
 *::before,

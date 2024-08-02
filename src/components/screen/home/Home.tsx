@@ -5,7 +5,9 @@ const Home = () => {
 	return (
 		<div className={styles.home}>
 			<div className={styles.home__container}>
-				<div className={styles.home__content}></div>
+				<div className={styles.home__content}>
+					<div className={styles.home__content__header}></div>
+				</div>
 			</div>
 		</div>
 	)
